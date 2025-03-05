@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Prediction</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Air Quality Prediction</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Project Overview</h2>
+        <p>The Air Quality Prediction system utilizes machine learning models to analyze real-time and historical environmental data to predict air pollution levels. It aims to provide accurate forecasts to help individuals and organizations take preventive measures.</p>
+        <h3>Features</h3>
+        <ul>
+            <li>Data collection from IoT sensors and weather APIs</li>
+            <li>Machine learning-based prediction models</li>
+            <li>Real-time air quality index (AQI) monitoring</li>
+            <li>Interactive dashboard for visualization</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Karthik Sureshkumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
