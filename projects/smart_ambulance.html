@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Ambulance Traffic System</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Ambulance Traffic System</h1>
+        <nav>
+            <a href="../index.html">Back to Home</a>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Project Overview</h2>
+        <p>Traffic congestion significantly delays emergency response times. This IoT-based system detects approaching ambulances and dynamically adjusts traffic signals to prioritize emergency vehicles. Using an ESP8266 microcontroller, the system integrates a sound detection module to recognize ambulance sirens, activating a priority-based traffic light system.</p>
+        
+        <p>The three-way junction system uses potentiometers to simulate multiple roads:
+        <ul>
+            <li><strong>Junction road (highest priority)</strong> - Blocks all other roads if an ambulance is detected.</li>
+            <li><strong>Parallel roads (lower priority)</strong> - Allowed simultaneous green signals if no emergency is detected.</li>
+            <li><strong>FIFO-based queueing</strong> - If multiple ambulances arrive, they are managed based on a first-in, first-out algorithm.</li>
+        </ul>
+        </p>
+        <p>The project runs on Wokwi for simulation and later integrates a real-time Python module to enhance detection accuracy. This system can be extended to real-world smart city implementations.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Karthik Sureshkumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
